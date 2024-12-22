@@ -19,8 +19,8 @@ def ping():
     return {"message":"Hey there..."}
 
 
-@app.route('/predict', methods=['GET','POST'])
-def predict():
+@app.route('/Predict', methods=['GET','POST'])
+def Predict():
     if request.method == 'GET':        
         return "I will make the predictions."
     else:
